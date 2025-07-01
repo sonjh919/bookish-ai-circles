@@ -2,72 +2,57 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/4066adf3-d4b8-4460-ae1d-f16f685b08cc
+**URL**: [https://lovable.dev/projects/4066adf3-d4b8-4460-ae1d-f16f685b08cc](https://bookish-ai-circles.lovable.app)
 
-## How can I edit this code?
+### 1. 서비스 주제 및 목적
+AI 기반 개인화 도서 추천 및 북클럽 서비스는
+사용자의 독서 취향과 감상 후기를 AI가 분석하여 맞춤형 도서를 추천하고,
+비슷한 관심사를 가진 사람들이 온라인 북클럽을 조직해 토론과 리뷰를 나눌 수 있도록 지원하는 웹 서비스입니다.
 
-There are several ways of editing your application.
+### 2. 주요 기능
+AI 기반 독서 취향 분석 및 도서 추천
 
-**Use Lovable**
+감상 후기 및 독서 기록 시각화
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4066adf3-d4b8-4460-ae1d-f16f685b08cc) and start prompting.
+온라인 북클럽 자동 매칭 및 운영 지원
 
-Changes made via Lovable will be committed automatically to this repo.
+북클럽 내 토론, Q&A, 진도 체크, 실습 코드(기술서적의 경우) 공유
 
-**Use your preferred IDE**
+개인별 독서 히스토리 관리 및 성장 피드백
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 3. 페르소나
+(1) 박서연 (34세, 중학교 영어 교사, 대전)
+다양한 장르의 책을 접하고 싶지만, 취향을 반영한 추천이 부족하다고 느낌
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+독서 후 생각을 나눌 수 있는 북클럽 참여를 원하지만, 적합한 모임을 찾기 어려움
 
-Follow these steps:
+읽은 책과 감상을 기록하고, 독서 히스토리를 시각적으로 관리하고 싶음
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+(2) 이준호 (27세, 웹 개발자, 부산)
+기술 서적 외에도 다양한 분야의 책을 읽고 싶음
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+바쁜 일정으로 오프라인 모임 참여가 힘들고, 깊이 있는 토론이 가능한 북클럽을 원함
 
-# Step 3: Install the necessary dependencies.
-npm i
+AI가 자신의 독서 패턴과 관심 기술을 분석해 새로운 분야의 책을 추천해주길 기대
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+(3) 김지훈 (25세, 개발자 취업 준비생, 대구)
+개발 입문자이며, 방대한 정보와 책 중 무엇부터 읽어야 할지 막막함
 
-**Edit a file directly in GitHub**
+실습 위주의 책, 코딩 테스트 준비 등 실질적인 도움을 받을 수 있는 추천과 북클럽을 원함
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+초보 개발자들과 함께 공부하며 진도 체크, Q&A, 포트폴리오 작성에 도움을 받고 싶음
 
-**Use GitHub Codespaces**
+### 4. 사용자 시나리오
+(예시: 김지훈)
+김지훈은 경영학을 전공했지만, 개발자로 커리어 전환을 준비 중이다.
+수많은 개발 서적 중 어떤 책을 골라야 할지 몰라 고민하던 중, “AI 기반 개인화 도서 추천 및 북클럽 서비스”에 가입한다.
+AI가 지훈의 목표와 현재 수준, 관심 분야를 분석해 입문자에게 적합한 책을 추천하고, 초보 개발자들이 모여 함께 공부하는 북클럽을 자동으로 매칭해준다.
+지훈은 북클럽에서 진도 체크, Q&A, 실습 코드 공유, 취업 정보 토론 등 다양한 활동에 참여하며,
+AI가 제공하는 다음 추천 도서와 학습 자료를 통해 체계적으로 성장한다.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/4066adf3-d4b8-4460-ae1d-f16f685b08cc) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+(예시: 박서연)
+박서연은 다양한 장르의 책을 읽고 싶지만, 본인 취향에 맞는 책을 찾기가 쉽지 않다.
+서비스에 가입해 취향과 독서 목적을 입력하면, AI가 맞춤형 도서를 추천하고,
+비슷한 관심사를 가진 멤버들과 북클럽을 자동 매칭해준다.
+서연은 북클럽에서 토론과 감상 공유를 통해 독서 경험을 확장하고,
+자신의 독서 히스토리를 시각적으로 관리할 수 있다.

@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
@@ -102,7 +101,10 @@ const Index = () => {
                   AI 기반 맞춤 추천과 북클럽 매칭으로 새로운 독서 여행을 시작해보세요
                 </p>
                 <button 
-                  onClick={() => document.querySelector('[data-login-trigger]')?.click()}
+                  onClick={() => {
+                    const loginButton = document.querySelector('[data-login-trigger]') as HTMLElement;
+                    loginButton?.click();
+                  }}
                   className="bg-white text-blue-600 px-8 py-3 rounded-xl font-semibold hover:bg-blue-50 transition-colors"
                 >
                   무료로 시작하기

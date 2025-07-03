@@ -4,6 +4,8 @@
 
 **URL**: [https://lovable.dev/projects/4066adf3-d4b8-4460-ae1d-f16f685b08cc](https://bookish-ai-circles.lovable.app)
 
+-> update버전!:  https://github.com/sonjh919/code-scribe-circle?tab=readme-ov-file
+
 ### 1. 서비스 주제 및 목적
 AI 기반 개인화 도서 추천 및 북클럽 서비스는
 사용자의 독서 취향과 감상 후기를 AI가 분석하여 맞춤형 도서를 추천하고,
